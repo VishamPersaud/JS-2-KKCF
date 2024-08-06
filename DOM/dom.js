@@ -100,13 +100,36 @@ myDiv.innerText = "Hello World";
 // add2num(10,2)
 
  
-// Select the button element
-let mybutton = document.querySelector("button")
+// // Select the button element
+// let mybutton = document.querySelector("button")
 
- // Function to handle button click
-function handleClick() {
-    alert('Button was clicked!');
-  }
+//  // Function to handle button click
+// function handleClick() {
+//     alert('Button was clicked!');
+//   }
  
-// Add the click event listener
-mybutton.addEventListener('click', handleClick);
+// // Add the click event listener
+// mybutton.addEventListener('click', handleClick);
+
+
+// slect my 2nd random button as variable
+let randombutton = document.querySelector("#RandomColor")
+
+// this works as well 
+// let randombutton = document.getElementById("RandomColor")
+
+
+//create a function 
+
+ function color() {
+
+    let randomR = Math.floor(Math.random()*255)
+    let randomG = Math.floor(Math.random()*255)
+    let randomB = Math.floor(Math.random()*255)
+
+
+     //select the body element
+     document.body.style.backgroundColor= `rgb(${randomR},${randomG},${randomB})`
+ }
+
+ randombutton.addEventListener("click",color);
