@@ -30,10 +30,50 @@ console.log(document.querySelectorAll("h2"))
 document.querySelector("#transform").innerText = "Sailor Moon"
 
 // 11. Modify CSS - Select the element with the id 'text-output'
+document.querySelector("#text-output").style.fontSize = "100px";
 // use the style.fontSize property to set the text size to 30px
 
 // 12. Select the body element and use style.cssText to change the text color and background color
-
+document.querySelector("body").style.cssText ="color:red; background-color:black;"
 //13. Change src attribute of the image 
+// let username = prompt("Enter your name");
+
+// document.querySelector("h2").innerText = "Welcome" + username 
+
+// 14. create a new div element
+document.createElement("div")
 
 
+// 15. save the new div to a variable
+let myDiv = document.createElement("div")
+
+
+// 16.  append the new div to the body
+document.body.append(myDiv);
+
+// 17. use innerText to giv the new div the text "Hello World"
+myDiv.innerText = "Hello World";
+
+
+// 18. create and append a new p tag to the div
+
+
+// 19. use .remove() to delete the new div from the page
+
+
+// 20. Exercise 4 Create img Element
+
+
+// Using JS, create an <img> element
+
+
+// Use a method to give it a value for the src attribute
+
+
+// Append it to the page inside another element besides the body element
+
+
+// Open the html file in the browser or use Live Server to view it
+
+
+// Call the remove() method on your img element to remove it from the page
