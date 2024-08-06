@@ -77,3 +77,36 @@ myDiv.innerText = "Hello World";
 
 
 // Call the remove() method on your img element to remove it from the page
+
+
+// // declare function
+// function sayhello() {
+//     alert("Will this apper?!")
+// }
+
+// // calling an function 
+// sayhello()
+
+
+
+//parameters
+
+// function add2num(a,b) {
+//     alert(a+b)
+// }
+
+
+// add2num(2,3)
+// add2num(10,2)
+
+ 
+// Select the button element
+let mybutton = document.querySelector("button")
+
+ // Function to handle button click
+function handleClick() {
+    alert('Button was clicked!');
+  }
+ 
+// Add the click event listener
+mybutton.addEventListener('click', handleClick);
